@@ -438,7 +438,38 @@
                             请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Department&amp;action=SearchDepartmentWithKeyword                        </p>
                         
                                                 
-                                                                            
+                                                    <table class="table table-hover">
+                                    <colgroup>
+                                    <col class="col-xs-2">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-7">
+                                    <col class="col-xs-2">
+                                  </colgroup>
+                                    <thead>
+                                         <tr>
+                                            <th><span class="label label-success">Body参数名</span></th>
+                                            <th>类型</th>
+                                            <th>必需</th>
+                                            <th>描述</th>
+                                            <th>示例 e.g.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>projectId</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>d64f2512-d8ee-49d5-802a-b95328561bc0</td>
+                                        </tr><tr>
+                                            <td>keyword</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td>n</td>
+                                        </tr>                                    </tbody>
+                                </table>                        
                         
                                                 
                         
@@ -453,7 +484,38 @@
                             请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Department&amp;action=SearchDepartment                        </p>
                         
                                                 
-                                                                            
+                                                    <table class="table table-hover">
+                                    <colgroup>
+                                    <col class="col-xs-2">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-7">
+                                    <col class="col-xs-2">
+                                  </colgroup>
+                                    <thead>
+                                         <tr>
+                                            <th><span class="label label-success">Body参数名</span></th>
+                                            <th>类型</th>
+                                            <th>必需</th>
+                                            <th>描述</th>
+                                            <th>示例 e.g.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>projectId</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>d64f2512-d8ee-49d5-802a-b95328561bc0</td>
+                                        </tr><tr>
+                                            <td>departmentid</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>                                    </tbody>
+                                </table>                        
                         
                                                 
                         
@@ -465,10 +527,59 @@
                         </p>
                         <p>请求方式：POST</p>
                         <p>
-                            请求地址：http://localhost:10001/ajaxpage/AjaxHeader.ashx?controller=Group&amp;action=GetGroupsSearch                        </p>
+                            请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Group&amp;action=GetGroupsSearch                        </p>
                         
                                                 
-                                                                            
+                                                    <table class="table table-hover">
+                                    <colgroup>
+                                    <col class="col-xs-2">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-7">
+                                    <col class="col-xs-2">
+                                  </colgroup>
+                                    <thead>
+                                         <tr>
+                                            <th><span class="label label-success">Body参数名</span></th>
+                                            <th>类型</th>
+                                            <th>必需</th>
+                                            <th>描述</th>
+                                            <th>示例 e.g.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>pageIndex</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>1</td>
+                                        </tr><tr>
+                                            <td>pageSize</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>20</td>
+                                        </tr><tr>
+                                            <td>keyword</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td>d</td>
+                                        </tr><tr>
+                                            <td>firstLetters</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td>["a"]</td>
+                                        </tr><tr>
+                                            <td>projectId</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td>d64f2512-d8ee-49d5-802a-b95328561bc0</td>
+                                        </tr>                                    </tbody>
+                                </table>                        
                         
                                                 
                         
@@ -483,7 +594,56 @@
                             请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Group&amp;action=GetSharedGroupsSearch                        </p>
                         
                                                 
-                                                                            
+                                                    <table class="table table-hover">
+                                    <colgroup>
+                                    <col class="col-xs-2">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-1">
+                                    <col class="col-xs-7">
+                                    <col class="col-xs-2">
+                                  </colgroup>
+                                    <thead>
+                                         <tr>
+                                            <th><span class="label label-success">Body参数名</span></th>
+                                            <th>类型</th>
+                                            <th>必需</th>
+                                            <th>描述</th>
+                                            <th>示例 e.g.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>pageIndex</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>1</td>
+                                        </tr><tr>
+                                            <td>pagesize</td>
+                                            <td>string</td>
+                                            <td>是</td>
+                                            <td></td>
+                                            <td>15</td>
+                                        </tr><tr>
+                                            <td>keyword</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr><tr>
+                                            <td>firstLetters</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr><tr>
+                                            <td>projectId</td>
+                                            <td>string</td>
+                                            <td>否</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>                                    </tbody>
+                                </table>                        
                         
                                                 
                         
