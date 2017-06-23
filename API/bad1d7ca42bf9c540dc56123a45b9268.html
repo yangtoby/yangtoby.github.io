@@ -57,13 +57,9 @@
                                 <ul class="nav list-group">
                                     
                                     <li>
-                                        <a href="#28ca3ebab38e48dbbd8c376a7c6778b6">搜索部门带关键字</a>
-                                    </li><li>
-                                        <a href="#e1e52ac9953942b495e7e98a69feac40">搜索部门不带关键字</a>
+                                        <a href="#28ca3ebab38e48dbbd8c376a7c6778b6">搜索部门</a>
                                     </li><li>
                                         <a href="#3c4eed56fef845579a4a70cba65c6b3f">群组搜索</a>
-                                    </li><li>
-                                        <a href="#cc11e422f60f4fd1b4c5962f89c22f88">常用群组搜索</a>
                                     </li>
                                 </ul>                                <span>附录</span>
                                 <ul class="nav list-group">
@@ -428,14 +424,14 @@
                     </div><h1 id="t_api_doc">群组搜索</h1>
                     
                     <div class="api-one">
-                        <h3 id="28ca3ebab38e48dbbd8c376a7c6778b6">搜索部门带关键字</h3>
+                        <h3 id="28ca3ebab38e48dbbd8c376a7c6778b6">搜索部门</h3>
                         <p>
                             <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=28ca3ebab38e48dbbd8c376a7c6778b6" class="label label-warning">在线测试</a>
                             <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=28ca3ebab38e48dbbd8c376a7c6778b6" class="label label-warning">在线浏览</a>
                         </p>
                         <p>请求方式：POST</p>
                         <p>
-                            请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Department&amp;action=SearchDepartmentWithKeyword                        </p>
+                            请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Department&amp;action=SearchDepartment                        </p>
                         
                                                 
                                                     <table class="table table-hover">
@@ -468,52 +464,6 @@
                                             <td>否</td>
                                             <td></td>
                                             <td>n</td>
-                                        </tr>                                    </tbody>
-                                </table>                        
-                        
-                                                
-                        
-                    </div><div class="api-one">
-                        <h3 id="e1e52ac9953942b495e7e98a69feac40">搜索部门不带关键字</h3>
-                        <p>
-                            <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=e1e52ac9953942b495e7e98a69feac40" class="label label-warning">在线测试</a>
-                            <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=e1e52ac9953942b495e7e98a69feac40" class="label label-warning">在线浏览</a>
-                        </p>
-                        <p>请求方式：POST</p>
-                        <p>
-                            请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Department&amp;action=SearchDepartment                        </p>
-                        
-                                                
-                                                    <table class="table table-hover">
-                                    <colgroup>
-                                    <col class="col-xs-2">
-                                    <col class="col-xs-1">
-                                    <col class="col-xs-1">
-                                    <col class="col-xs-7">
-                                    <col class="col-xs-2">
-                                  </colgroup>
-                                    <thead>
-                                         <tr>
-                                            <th><span class="label label-success">Body参数名</span></th>
-                                            <th>类型</th>
-                                            <th>必需</th>
-                                            <th>描述</th>
-                                            <th>示例 e.g.</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>projectId</td>
-                                            <td>string</td>
-                                            <td>是</td>
-                                            <td></td>
-                                            <td>d64f2512-d8ee-49d5-802a-b95328561bc0</td>
-                                        </tr><tr>
-                                            <td>departmentid</td>
-                                            <td>string</td>
-                                            <td>否</td>
-                                            <td></td>
-                                            <td></td>
                                         </tr>                                    </tbody>
                                 </table>                        
                         
@@ -583,70 +533,6 @@
                         
                                                 
                         
-                    </div><div class="api-one">
-                        <h3 id="cc11e422f60f4fd1b4c5962f89c22f88">常用群组搜索</h3>
-                        <p>
-                            <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=cc11e422f60f4fd1b4c5962f89c22f88" class="label label-warning">在线测试</a>
-                            <a target="_blank" href="http://apizza.cc/console/project/bad1d7ca42bf9c540dc56123a45b9268/browse?api=cc11e422f60f4fd1b4c5962f89c22f88" class="label label-warning">在线浏览</a>
-                        </p>
-                        <p>请求方式：POST</p>
-                        <p>
-                            请求地址：http://{{host}}/ajaxpage/AjaxHeader.ashx?controller=Group&amp;action=GetSharedGroupsSearch                        </p>
-                        
-                                                
-                                                    <table class="table table-hover">
-                                    <colgroup>
-                                    <col class="col-xs-2">
-                                    <col class="col-xs-1">
-                                    <col class="col-xs-1">
-                                    <col class="col-xs-7">
-                                    <col class="col-xs-2">
-                                  </colgroup>
-                                    <thead>
-                                         <tr>
-                                            <th><span class="label label-success">Body参数名</span></th>
-                                            <th>类型</th>
-                                            <th>必需</th>
-                                            <th>描述</th>
-                                            <th>示例 e.g.</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>pageIndex</td>
-                                            <td>string</td>
-                                            <td>是</td>
-                                            <td></td>
-                                            <td>1</td>
-                                        </tr><tr>
-                                            <td>pagesize</td>
-                                            <td>string</td>
-                                            <td>是</td>
-                                            <td></td>
-                                            <td>15</td>
-                                        </tr><tr>
-                                            <td>keyword</td>
-                                            <td>string</td>
-                                            <td>否</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr><tr>
-                                            <td>firstLetters</td>
-                                            <td>string</td>
-                                            <td>否</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr><tr>
-                                            <td>projectId</td>
-                                            <td>string</td>
-                                            <td>否</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>                                    </tbody>
-                                </table>                        
-                        
-                                                
-                        
                     </div>
                     <h1 id="t_api_doc">附录</h1>
                      <div class="api-one">
@@ -669,24 +555,7 @@
                                         <td>host</td>
                                         <td>localhost:7432</td>
                                     </tr>                                </tbody>
-                            </table><h5><span class="label label-danger">fe</span></h5>
-                            <table class="table table-hover" style="margin-top: 7px;">
-                                <colgroup>
-                                <col class="col-xs-4">
-                                <col class="col-xs-8">
-                              </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>变量名</th>
-                                        <th>变量值</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>host</td>
-                                        <td>api.calendar3.fe.mingdao.net</td>
-                                    </tr>                                </tbody>
-                            </table><h5><span class="label label-danger">webhost</span></h5>
+                            </table><h5><span class="label label-danger">vsweb</span></h5>
                             <table class="table table-hover" style="margin-top: 7px;">
                                 <colgroup>
                                 <col class="col-xs-4">
@@ -702,6 +571,57 @@
                                     <tr>
                                         <td>host</td>
                                         <td>localhost:10001</td>
+                                    </tr>                                </tbody>
+                            </table><h5><span class="label label-danger">localapi</span></h5>
+                            <table class="table table-hover" style="margin-top: 7px;">
+                                <colgroup>
+                                <col class="col-xs-4">
+                                <col class="col-xs-8">
+                              </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>变量名</th>
+                                        <th>变量值</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>host</td>
+                                        <td>172.17.10.88:12345</td>
+                                    </tr>                                </tbody>
+                            </table><h5><span class="label label-danger">localweb</span></h5>
+                            <table class="table table-hover" style="margin-top: 7px;">
+                                <colgroup>
+                                <col class="col-xs-4">
+                                <col class="col-xs-8">
+                              </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>变量名</th>
+                                        <th>变量值</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>host</td>
+                                        <td>172.17.10.88:11223</td>
+                                    </tr>                                </tbody>
+                            </table><h5><span class="label label-danger">vsapi</span></h5>
+                            <table class="table table-hover" style="margin-top: 7px;">
+                                <colgroup>
+                                <col class="col-xs-4">
+                                <col class="col-xs-8">
+                              </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>变量名</th>
+                                        <th>变量值</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>host</td>
+                                        <td>localhost:7432</td>
                                     </tr>                                </tbody>
                             </table>
                      </div>
